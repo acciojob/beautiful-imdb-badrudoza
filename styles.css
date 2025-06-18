@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+body{
+	margin:0px;
+	position:relative;
+}
+.moviePic{
+	width:200px;
+	height:300px;
+	opacity:0.9;
+}
+.moviePic:hover{
+	opacity:1;
+}
+.movieDetail{
+	position:absolute;
+	top:50%;
+	left:50%;
+	font-size:20px;
+	text-align:center;
+	width:200px
+}
